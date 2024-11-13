@@ -1,0 +1,117 @@
+/* Alap stílusok */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Táblázat stílusok */
+table {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    table-layout: fixed; /* Fix oszlopszélesség, hogy ne lógjon ki */
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: top;
+    word-wrap: break-word; /* Ha szükséges, tördelje a szöveget */
+}
+
+/* Fejléc stílus */
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Időpontok cellái */
+.time-cell {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+/* Események */
+.event {
+    margin: 5px 0;
+    padding: 8px;
+    background-color: #e3f2fd;
+    border-left: 4px solid #007bff;
+    cursor: pointer;
+}
+
+.event:hover {
+    background-color: #bbdefb;
+}
+
+/* Esemény hozzáadása űrlap */
+.event-form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.event-form h3 {
+    margin-bottom: 15px;
+}
+
+.event-form input,
+.event-form select,
+.event-form button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.event-form input,
+.event-form select {
+    background-color: #f9f9f9;
+}
+
+.event-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.event-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Táblázat cella stilizálás */
+td {
+    min-height: 60px;
+    position: relative;
+    word-wrap: break-word; /* Ha szükséges, tördelje a szöveget */
+}
+
+td .event {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    z-index: 10;
+}
+
+
+
